@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import MyCard from './Card'; 
+
 function App() {
   const cardData = [
     {
@@ -15,7 +16,7 @@ function App() {
       title: 'Digital Marketting Fundamentals',
       duration: '2h 30m',
       participants: '342',
-      price: '$97.14/year',
+      price: '$97.14/year', 
     },
     {
       image: 'https://images.unsplash.com/photo-1621569898825-ef12e7592f94?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D',
